@@ -70,6 +70,7 @@
         <querydsl.version>5.0.0</querydsl.version>
         <spring.version>5.3.10</spring.version>
         <spring.boot.version>2.5.5</spring.boot.version>
+        <spring-boot.version>3.0.3</spring-boot.version>
         <spring.cloud.version>2021.1</spring.cloud.version>
         <mybatis.version>3.4.3</mybatis.version>
 
@@ -100,7 +101,7 @@
 
         <swagger2.version>1.5.22</swagger2.version>
         <swagger3.version>2.1.2</swagger3.version>
-
+        <docker.version>1.2.2</docker.version>
     </properties>
 
     <build>
@@ -211,6 +212,31 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- 定义 spring boot 版本 -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- 定义 spring cloud 版本 -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <!-- 定义 spring cloud alibaba 版本 -->
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
                 <artifactId>xs-common</artifactId>

@@ -16,10 +16,12 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
         </dependency>
+        <!--
+
         <dependency>
             <groupId>com.github.shijingsh</groupId>
             <artifactId>laokou-common-i18n</artifactId>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>caffeine</artifactId>
@@ -99,7 +101,7 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>com.github.shijingsh</groupId>
             <artifactId>laokou-kafka-client</artifactId>
             <exclusions>
@@ -108,7 +110,7 @@
                     <artifactId>spring-boot-starter-web</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
