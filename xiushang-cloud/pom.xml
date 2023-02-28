@@ -2,33 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
     <parent>
-        <artifactId>xiushang-cloud</artifactId>
-        <groupId>com.github.shijingsh</groupId>
-        <version>1.6.1</version>
+        <groupId>org.laokou</groupId>
+        <artifactId>laokou-parent</artifactId>
+        <version>3.0.3</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
-
-    <artifactId>xs-common</artifactId>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.laokou</groupId>
+    <artifactId>laokou-cloud</artifactId>
+    <version>3.0.3</version>
     <packaging>pom</packaging>
-
     <modules>
-        <module>common-core</module>
-        <module>common-dubbo</module>
-        <module>common-dubbo-nacos</module>
-        <module>common-elasticsearch</module>
-        <module>common-framework</module>
-        <module>common-mybatis</module>
-        <module>common-mapstruct</module>
-        <module>common-nacos</module>
-        <module>common-pay</module>
-        <module>common-redis</module>
-        <module>common-rocketmq</module>
-        <module>common-sms</module>
-        <module>common-solr</module>
-        <module>common-validation</module>
-        <module>common-web</module>
+        <module>laokou-gateway</module>
+        <module>laokou-monitor</module>
+        <module>laokou-sentinel</module>
+        <module>laokou-openfeign</module>
     </modules>
-
 </project>
