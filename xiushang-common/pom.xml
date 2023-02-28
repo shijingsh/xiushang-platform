@@ -5,30 +5,30 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>xiushang-cloud</artifactId>
+        <artifactId>xiushang-platform</artifactId>
         <groupId>com.github.shijingsh</groupId>
-        <version>1.6.1</version>
+        <version>1.0.0</version>
     </parent>
 
-    <artifactId>xs-common</artifactId>
+    <artifactId>xiushang-common</artifactId>
     <packaging>pom</packaging>
 
     <modules>
-        <module>common-core</module>
-        <module>common-dubbo</module>
-        <module>common-dubbo-nacos</module>
-        <module>common-elasticsearch</module>
-        <module>common-framework</module>
-        <module>common-mybatis</module>
-        <module>common-mapstruct</module>
-        <module>common-nacos</module>
-        <module>common-pay</module>
-        <module>common-redis</module>
-        <module>common-rocketmq</module>
-        <module>common-sms</module>
-        <module>common-solr</module>
-        <module>common-validation</module>
-        <module>common-web</module>
+        <module>xiushang-common-core</module>
+        <module>xiushang-common-dubbo</module>
+        <module>xiushang-common-dubbo-nacos</module>
+        <module>xiushang-common-elasticsearch</module>
+        <module>xiushang-common-framework</module>
+        <module>xiushang-common-mybatis</module>
+        <module>xiushang-common-mapstruct</module>
+        <module>xiushang-common-nacos</module>
+        <module>xiushang-common-pay</module>
+        <module>xiushang-common-redis</module>
+        <module>xiushang-common-rocketmq</module>
+        <module>xiushang-common-sms</module>
+        <module>xiushang-common-solr</module>
+        <module>xiushang-common-validation</module>
+        <module>xiushang-common-web</module>
     </modules>
 
 </project>

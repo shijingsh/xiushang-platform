@@ -7,18 +7,15 @@
         <version>7</version>
     </parent>
     <groupId>com.github.shijingsh</groupId>
-    <artifactId>xiushang-cloud</artifactId>
-    <version>1.6.1</version>
+    <artifactId>xiushang-platform</artifactId>
+    <version>1.0.0</version>
     <modules>
-        <module>xiushang-cloud-example</module>
-        <module>xs-common</module>
-        <module>xs-entity</module>
-        <module>xs-service</module>
-        <module>xs-oauth</module>
-        <module>xs-job</module>
+        <module>xiushang-cloud</module>
+        <module>xiushang-common</module>
+        <module>xiushang-service</module>
     </modules>
     <packaging>pom</packaging>
-    <name>xiushang-cloud</name>
+    <name>xiushang-platform</name>
     <url>http://maven.apache.org</url>
 
     <licenses>
@@ -29,8 +26,8 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/shijingsh/xiushang-cloud</url>
-        <connection>scm:git:git@github.com:shijingsh/xiushang-cloud.git</connection>
+        <url>https://github.com/shijingsh/xiushang-platform</url>
+        <connection>scm:git:git@github.com:shijingsh/xiushang-platform.git</connection>
         <developerConnection>https://github.com/shijingsh</developerConnection>
     </scm>
     <developers>
@@ -107,36 +104,7 @@
     </properties>
 
     <build>
-        <finalName>xiushang-cloud</finalName>
-        <defaultGoal>compile</defaultGoal>
-        <!-- resource and testResource -->
-        <resources>
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                    <include>**/*.properties</include>
-                </includes>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                    <include>**/*.properties</include>
-                    <include>**/*.*</include>
-                </includes>
-            </resource>
-        </resources>
-        <testResources>
-            <testResource>
-                <directory>src/test/resources</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                    <include>**/*.properties</include>
-                </includes>
-            </testResource>
-        </testResources>
-
+        <finalName>xiushang-platform</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -159,15 +127,7 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
-            <!--<plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                    <encoding>utf-8</encoding>
-                </configuration>
-            </plugin>-->
+
             <!-- resources插件 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
