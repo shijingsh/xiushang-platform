@@ -14,21 +14,19 @@
  * limitations under the License.
  */
 package org.laokou.gateway.feign.kafka.factory;
-/*
 import org.laokou.gateway.feign.kafka.fallback.KafkaApiFeignClientFallback;
 import org.springframework.cloud.openfeign.FallbackFactory;
 import org.springframework.stereotype.Component;
-*/
 
 /**
  * 回调工厂
  * @author laokou
  */
-/*@Component
+@Component
 public class KafkaApiFeignClientFallbackFactory implements FallbackFactory<KafkaApiFeignClientFallback> {
 
     @Override
     public KafkaApiFeignClientFallback create(Throwable throwable) {
         return new KafkaApiFeignClientFallback(throwable);
     }
-}*/
+}
