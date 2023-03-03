@@ -102,17 +102,17 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-dynamic-router</artifactId>
+                <artifactId>xiushang-module-dynamic-router</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-hbase-client</artifactId>
+                <artifactId>xiushang-module-hbase-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-hbase-server</artifactId>
+                <artifactId>xiushang-module-hbase-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -142,22 +142,22 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-power-job</artifactId>
+                <artifactId>xiushang-module-power-job</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-common-api</artifactId>
+                <artifactId>xiushang-common-api</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-freemarker</artifactId>
+                <artifactId>xiushang-module-freemarker</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-tenant</artifactId>
+                <artifactId>xiushang-module-tenant</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -167,22 +167,22 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-common-data-cache</artifactId>
+                <artifactId>xiushang-common-data-cache</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-common-data-filter</artifactId>
+                <artifactId>xiushang-common-data-filter</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-common-log</artifactId>
+                <artifactId>xiushang-common-log</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-common-security</artifactId>
+                <artifactId>xiushang-common-security</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -302,22 +302,22 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-gateway</artifactId>
+                <artifactId>xiushang-cloud-gateway</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-monitor</artifactId>
+                <artifactId>xiushang-cloud-monitor</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-admin-server</artifactId>
+                <artifactId>xiushang-admin-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-admin-client</artifactId>
+                <artifactId>xiushang-admin-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -352,12 +352,12 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-generator-server</artifactId>
+                <artifactId>xiushang-generator-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-generator-client</artifactId>
+                <artifactId>xiushang-generator-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -367,17 +367,17 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-redis</artifactId>
+                <artifactId>xiushang-module-redis</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-elasticsearch-server</artifactId>
+                <artifactId>xiushang-module-elasticsearch-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-elasticsearch-client</artifactId>
+                <artifactId>xiushang-module-elasticsearch-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -407,22 +407,22 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-common-mybatis-plus</artifactId>
+                <artifactId>xiushang-common-mybatis-plus</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-rocketmq-server</artifactId>
+                <artifactId>xiushang-module-rocketmq-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-rocketmq-client</artifactId>
+                <artifactId>xiushang-module-rocketmq-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-rocketmq-consumer</artifactId>
+                <artifactId>xiushang-module-rocketmq-consumer</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -432,52 +432,52 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-mail-client</artifactId>
+                <artifactId>xiushang-module-mail-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-mail-server</artifactId>
+                <artifactId>xiushang-module-mail-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-oss-client</artifactId>
+                <artifactId>xiushang-module-oss-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-oss-server</artifactId>
+                <artifactId>xiushang-module-oss-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-sms-client</artifactId>
+                <artifactId>xiushang-module-sms-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-sms-server</artifactId>
+                <artifactId>xiushang-module-sms-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-auth-client</artifactId>
+                <artifactId>xiushang-auth-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-auth-server</artifactId>
+                <artifactId>xiushang-auth-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-im-client</artifactId>
+                <artifactId>xiushang-module-im-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-im-server</artifactId>
+                <artifactId>xiushang-module-im-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -492,27 +492,27 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-flowable-client</artifactId>
+                <artifactId>xiushang-module-flowable-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-mongodb-client</artifactId>
+                <artifactId>xiushang-module-mongodb-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-kafka-client</artifactId>
+                <artifactId>xiushang-module-kafka-client</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-kafka-server</artifactId>
+                <artifactId>xiushang-module-kafka-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-flowable-server</artifactId>
+                <artifactId>xiushang-module-flowable-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -547,7 +547,7 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-mongodb-server</artifactId>
+                <artifactId>xiushang-module-mongodb-server</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
 
