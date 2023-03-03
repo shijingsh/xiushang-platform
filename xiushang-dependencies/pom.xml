@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
 
     <properties>
-        <laokou.version>3.0.3</laokou.version>
         <xiushang.version>1.0.0</xiushang.version>
         <!--boot版本-->
         <spring-boot.version>3.0.3</spring-boot.version>
@@ -95,30 +94,26 @@
     <!-- 定义全局jar版本,模块使用需要再次引入但不用写版本号 -->
     <dependencyManagement>
         <dependencies>
-<!--            <dependency>-->
-<!--                <groupId>org.mapstruct</groupId>-->
-<!--                <artifactId>mapstruct</artifactId>-->
-<!--                <version>${mapstruct.version}</version>-->
-<!--            </dependency>-->
+
             <dependency>
                 <groupId>org.apache.hbase</groupId>
                 <artifactId>hbase-shaded-client</artifactId>
                 <version>${hbase.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-dynamic-router</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-hbase-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-hbase-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.hibernate.validator</groupId>
@@ -131,9 +126,9 @@
                 <version>${httpclient5.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-openfeign</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
@@ -146,24 +141,24 @@
                 <version>${shardingsphere-jdbc-core.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-power-job</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-api</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-freemarker</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-tenant</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.baomidou</groupId>
@@ -171,29 +166,29 @@
                 <version>${dynamic-datasource.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-data-cache</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-data-filter</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-log</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-security</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-sentinel</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.amazonaws</groupId>
@@ -290,9 +285,9 @@
                 <version>${hutool-all.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-core</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <!-- 解析客户端操作系统、浏览器等 -->
             <dependency>
@@ -306,24 +301,24 @@
                 <version>${jasypt.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-gateway</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-monitor</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-admin-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-admin-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.oshi</groupId>
@@ -356,14 +351,14 @@
                 <version>${freemarker.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-generator-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-generator-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.redisson</groupId>
@@ -371,19 +366,19 @@
                 <version>${redisson.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-redis</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-elasticsearch-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-elasticsearch-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.elasticsearch.client</groupId>
@@ -411,79 +406,79 @@
                 <version>${elasticsearch.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-mybatis-plus</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-rocketmq-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-rocketmq-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-rocketmq-consumer</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-common-swagger</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-mail-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-mail-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-oss-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-oss-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-sms-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-sms-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-auth-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-auth-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-im-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-im-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
@@ -496,29 +491,29 @@
                 <version>${jakarta.servlet-api.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-flowable-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-mongodb-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-kafka-client</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-kafka-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-flowable-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.alibaba</groupId>
@@ -551,10 +546,22 @@
                 <version>${spring-boot-starter-oauth2-resource-server.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.laokou</groupId>
+               <groupId>com.github.shijingsh</groupId>
                 <artifactId>laokou-mongodb-server</artifactId>
-                <version>${laokou.version}</version>
+                <version>${xiushang.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>2.14.2</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>easyexcel</artifactId>
+                <version>3.2.1</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
