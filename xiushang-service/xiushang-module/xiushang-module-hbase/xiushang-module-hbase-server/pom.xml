@@ -20,7 +20,7 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-common-swagger</artifactId>
+            <artifactId>xiushang-common-swagger</artifactId>
         </dependency>
     </dependencies>
     <build>

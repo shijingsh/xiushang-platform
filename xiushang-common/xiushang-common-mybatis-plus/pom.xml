@@ -10,8 +10,8 @@
     <artifactId>xiushang-common-mybatis-plus</artifactId>
     <dependencies>
         <dependency>
-            <groupId>org.laokou</groupId>
-            <artifactId>laokou-common-core</artifactId>
+            <groupId>com.github.shijingsh</groupId>
+            <artifactId>xiushang-common-core</artifactId>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -26,8 +26,8 @@
             <artifactId>guava</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.laokou</groupId>
-            <artifactId>laokou-common-swagger</artifactId>
+            <groupId>com.github.shijingsh</groupId>
+            <artifactId>xiushang-common-swagger</artifactId>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
