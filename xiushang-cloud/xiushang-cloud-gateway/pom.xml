@@ -106,16 +106,16 @@
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
-        <!--<dependency>
+        <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-kafka-client</artifactId>
+            <artifactId>xiushang-module-kafka-client</artifactId>
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-web</artifactId>
                 </exclusion>
             </exclusions>
-        </dependency>-->
+        </dependency>
         <dependency>
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>

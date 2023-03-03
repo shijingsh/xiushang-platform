@@ -81,10 +81,10 @@
 
         <elasticsearch.version>7.12.1</elasticsearch.version>
         <solr.version>8.5.1</solr.version>
-        <hutool.version>5.7.17</hutool.version>
+        <hutool.version>5.8.12</hutool.version>
         <dubbo.version>3.0.10</dubbo.version>
         <zookeeper.version>3.0.10</zookeeper.version>
-        <lombok.version>1.18.22</lombok.version>
+        <lombok.version>1.18.26</lombok.version>
         <httpclient.version>4.5.12</httpclient.version>
         <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
 
