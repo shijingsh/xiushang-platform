@@ -561,6 +561,11 @@
                 <artifactId>easyexcel</artifactId>
                 <version>3.2.1</version>
             </dependency>
+            <dependency>
+                <groupId>com.github.shijingsh</groupId>
+                <artifactId>xiushang-common-log</artifactId>
+                <version>${xiushang.version}</version>
+            </dependency>
 
         </dependencies>
     </dependencyManagement>
