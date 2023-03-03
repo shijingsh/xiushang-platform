@@ -174,57 +174,57 @@
             <!-- common 子项目-->
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-core</artifactId>
+                <artifactId>xiushang-common-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-dubbo</artifactId>
+                <artifactId>xiushang-common-dubbo</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-dubbo-nacos</artifactId>
+                <artifactId>xiushang-common-dubbo-nacos</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-framework</artifactId>
+                <artifactId>xiushang-common-framework</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-mapstruct</artifactId>
+                <artifactId>xiushang-common-mapstruct</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-pay</artifactId>
+                <artifactId>xiushang-common-pay</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-redis</artifactId>
+                <artifactId>xiushang-common-redis</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-rocketmq</artifactId>
+                <artifactId>xiushang-common-rocketmq</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-sms</artifactId>
+                <artifactId>xiushang-common-sms</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-solr</artifactId>
+                <artifactId>xiushang-common-solr</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.shijingsh</groupId>
-                <artifactId>common-validation</artifactId>
+                <artifactId>xiushang-common-validation</artifactId>
                 <version>${project.version}</version>
             </dependency>
 

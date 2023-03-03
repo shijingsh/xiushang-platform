@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-common-core</artifactId>
+            <artifactId>xiushang-common-core</artifactId>
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>

@@ -216,7 +216,7 @@
         <!--core-->
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>common-core</artifactId>
+            <artifactId>xiushang-common-core</artifactId>
         </dependency>
 
     </dependencies>

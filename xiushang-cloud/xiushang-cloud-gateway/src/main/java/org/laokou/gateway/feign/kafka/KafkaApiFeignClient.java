@@ -12,7 +12,8 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */
+ *//*
+
 package org.laokou.gateway.feign.kafka;
 import org.laokou.common.core.constant.ServiceConstant;
 import org.laokou.gateway.feign.kafka.factory.KafkaApiFeignClientFallbackFactory;
@@ -21,19 +22,24 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
+*/
 /**
  * @author laokou
- */
+ *//*
+
 @FeignClient(value = ServiceConstant.LAOKOU_KAFKA,path = "/api", fallbackFactory = KafkaApiFeignClientFallbackFactory.class)
 @Service
 public interface KafkaApiFeignClient {
 
-    /**
+    */
+/**
      * 异步发送
      * @param topic: 主题
      * @param dto:   消息内容（Json格式）
-     */
+     *//*
+
     @PostMapping("/sendAsync/{topic}")
     void sendAsyncMessage(@PathVariable("topic") String topic, @RequestBody KafkaDTO dto);
 
 }
+*/

@@ -13,22 +13,34 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.laokou.gateway.feign.kafka.factory;
-/*
-import org.laokou.gateway.feign.kafka.fallback.KafkaApiFeignClientFallback;
-import org.springframework.cloud.openfeign.FallbackFactory;
-import org.springframework.stereotype.Component;
-*/
+package org.laokou.common.i18n.core;
+
+import lombok.Data;
+import org.laokou.common.i18n.utils.MessageUtil;
 
 /**
- * 回调工厂
  * @author laokou
  */
-/*@Component
-public class KafkaApiFeignClientFallbackFactory implements FallbackFactory<KafkaApiFeignClientFallback> {
+@Data
+public class CustomException extends RuntimeException{
 
-    @Override
-    public KafkaApiFeignClientFallback create(Throwable throwable) {
-        return new KafkaApiFeignClientFallback(throwable);
+    private int code;
+    private String msg;
+
+    public CustomException(int code) {
+        this.code = code;
+        this.msg = MessageUtil.getMessage(code);
     }
-}*/
+
+    public CustomException(int code, String msg) {
+        this.code = code;
+        this.msg = msg;
+    }
+
+    public CustomException(String msg) {
+        super(msg);
+        this.code = StatusCode.INTERNAL_SERVER_ERROR;
+        this.msg = msg;
+    }
+
+}

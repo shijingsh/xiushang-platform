@@ -16,12 +16,11 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
         </dependency>
-        <!--
-        编译通过屏蔽
+
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-common-i18n</artifactId>
-        </dependency>-->
+            <artifactId>xiushang-common-i18n</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.github.ben-manes.caffeine</groupId>
             <artifactId>caffeine</artifactId>
@@ -101,9 +100,8 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
-        <!--
-            编译通过屏蔽
-        <dependency>
+
+        <!--<dependency>
             <groupId>com.github.shijingsh</groupId>
             <artifactId>laokou-kafka-client</artifactId>
             <exclusions>

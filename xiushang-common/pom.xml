@@ -26,6 +26,7 @@
         <module>xiushang-common-sms</module>
         <module>xiushang-common-solr</module>
         <module>xiushang-common-validation</module>
+        <module>xiushang-common-i18n</module>
     </modules>
 
 </project>

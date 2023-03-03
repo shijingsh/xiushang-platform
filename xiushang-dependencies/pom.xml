@@ -11,6 +11,7 @@
 
     <properties>
         <laokou.version>3.0.3</laokou.version>
+        <xiushang.version>1.0.0</xiushang.version>
         <!--boot版本-->
         <spring-boot.version>3.0.3</spring-boot.version>
         <!--lombok版本-->
@@ -138,6 +139,11 @@
                 <groupId>org.laokou</groupId>
                 <artifactId>laokou-common-i18n</artifactId>
                 <version>${laokou.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.shijingsh</groupId>
+                <artifactId>xiushang-common-i18n</artifactId>
+                <version>${xiushang.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.shardingsphere</groupId>
