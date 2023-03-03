@@ -1,6 +1,7 @@
 package com.xiushang.common.utils;
 
 import com.alibaba.fastjson.serializer.PropertyFilter;
+import lombok.SneakyThrows;
 import org.apache.commons.lang3.StringUtils;
 import org.hibernate.collection.spi.PersistentCollection;
 import org.hibernate.proxy.HibernateProxy;
@@ -32,6 +33,7 @@ public class LazyLoadFilter implements PropertyFilter {
      * @param value  属性值
      * @return 返回false属性将被忽略，ture属性将被保留
      */
+    @SneakyThrows
     @Override
     public boolean apply(Object object, String name, Object value) {
         if (isMatchExcludeObjectAndName(object, name))
@@ -39,7 +41,7 @@ public class LazyLoadFilter implements PropertyFilter {
         if (value instanceof HibernateProxy) {//hibernate代理对象
             LazyInitializer initializer = ((HibernateProxy) value).getHibernateLazyInitializer();
             if (initializer.isUninitialized()) {
-                initializer.initialize();
+                //initializer.initialize();
                 return true;
             }
         } else if (value instanceof PersistentCollection) {//实体关联集合一对多等

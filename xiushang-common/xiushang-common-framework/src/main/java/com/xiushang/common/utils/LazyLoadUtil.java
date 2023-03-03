@@ -14,7 +14,7 @@ public class LazyLoadUtil {
     public  static void load(Object proxy) {
         if(proxy == null)
             return;
-        Hibernate.initialize(proxy);
+       // Hibernate.initialize(proxy);
     }
 
 }

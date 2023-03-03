@@ -4,7 +4,6 @@ import com.xiushang.framework.entity.vo.BaseVO;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-import javax.persistence.Lob;
 
 @Data
 public class SystemParamSaveVo extends BaseVO {
@@ -17,7 +16,6 @@ public class SystemParamSaveVo extends BaseVO {
     /**
      * 参数值
      */
-    @Lob
     @ApiModelProperty(notes = "参数值",required = true)
     private String paramValue;
 

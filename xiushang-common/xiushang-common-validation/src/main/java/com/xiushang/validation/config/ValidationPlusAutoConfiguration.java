@@ -16,11 +16,11 @@ public class ValidationPlusAutoConfiguration {
     @Bean
     public MethodValidationPostProcessor methodValidationPostProcessor() {
         MethodValidationPostProcessor postProcessor = new MethodValidationPostProcessor();
-        postProcessor.setValidator(validator());
+       // postProcessor.setValidator(validator());
         return postProcessor;
     }
 
-    @Bean
+    /*@Bean
     public Validator validator(){
         ValidatorFactory validatorFactory = Validation.byProvider( HibernateValidator.class )
                 .configure()
@@ -28,7 +28,7 @@ public class ValidationPlusAutoConfiguration {
                 .buildValidatorFactory();
         Validator validator = validatorFactory.getValidator();
         return validator;
-    }
+    }*/
 
     @Bean
     public AssertConstraintValidator assertConstraintValidator(){

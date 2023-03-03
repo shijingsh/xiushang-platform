@@ -1,8 +1,8 @@
 package com.xiushang.common.utils.excel;
 
 import com.xiushang.framework.sys.PropertyConfigurer;
+import jakarta.servlet.http.HttpServletResponse;
 
-import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 
 public class DownExcelUtil {

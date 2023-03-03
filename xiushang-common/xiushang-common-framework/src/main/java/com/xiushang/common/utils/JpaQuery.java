@@ -1,11 +1,10 @@
 package com.xiushang.common.utils;
 
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.criteria.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import javax.persistence.EntityManager;
-import javax.persistence.criteria.*;
-import javax.persistence.criteria.CriteriaBuilder.In;
 import java.io.Serializable;
 import java.util.*;
 
@@ -154,7 +153,7 @@ public class JpaQuery implements Serializable {
             return;
         }
         Iterator iterator = value.iterator();
-        In in = criteriaBuilder.in(from.get(propertyName));
+        CriteriaBuilder.In in = criteriaBuilder.in(from.get(propertyName));
         while (iterator.hasNext()) {
             in.value(iterator.next());
         }
@@ -284,7 +283,7 @@ public class JpaQuery implements Serializable {
             return;
         }
         Iterator iterator = value.iterator();
-        In in = criteriaBuilder.in(from.get(propertyName));
+        CriteriaBuilder.In in = criteriaBuilder.in(from.get(propertyName));
         while (iterator.hasNext()) {
             in.value(iterator.next());
         }
