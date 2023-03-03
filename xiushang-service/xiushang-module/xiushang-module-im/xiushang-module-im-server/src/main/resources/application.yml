@@ -1,0 +1,20 @@
+server:
+  port: 10001
+
+#spring
+spring:
+  application:
+    name: @pom.parent.artifactId@
+  profiles:
+    # 环境 dev|test|prod
+    active: @profile.active@
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: -1
+      max-request-size: -1
+  cloud:
+    inetutils:
+      ignoredInterfaces:
+        - docker0
+        - veth.*

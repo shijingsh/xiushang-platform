@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <artifactId>xiushang-service</artifactId>
+        <groupId>com.github.shijingsh</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.shijingsh</groupId>
+    <version>1.0.0</version>
+    <artifactId>xiushang-module</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>xiushang-module-oss</module>
+        <module>xiushang-module-sms</module>
+        <module>xiushang-module-mail</module>
+        <module>xiushang-module-im</module>
+        <module>xiushang-module-elasticsearch</module>
+        <module>xiushang-module-redis</module>
+        <module>xiushang-module-rocketmq</module>
+        <module>xiushang-module-flowable</module>
+        <module>xiushang-module-mongodb</module>
+        <module>xiushang-module-kafka</module>
+        <module>xiushang-module-tenant</module>
+        <module>xiushang-module-freemarker</module>
+        <module>xiushang-module-power-job</module>
+        <module>xiushang-module-dynamic-router</module>
+        <module>xiushang-module-hbase</module>
+    </modules>
+</project>
