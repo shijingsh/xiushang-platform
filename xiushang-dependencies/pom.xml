@@ -127,7 +127,7 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-openfeign</artifactId>
+                <artifactId>xiushang-cloud-openfeign</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -187,7 +187,7 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-sentinel</artifactId>
+                <artifactId>xiushang-cloud-sentinel</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -286,7 +286,7 @@
             </dependency>
             <dependency>
                <groupId>com.github.shijingsh</groupId>
-                <artifactId>laokou-common-core</artifactId>
+                <artifactId>xiushang-common-core</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <!-- 解析客户端操作系统、浏览器等 -->

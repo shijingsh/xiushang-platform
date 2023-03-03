@@ -27,6 +27,9 @@
         <module>xiushang-common-solr</module>
         <module>xiushang-common-validation</module>
         <module>xiushang-common-i18n</module>
+        <module>xiushang-common-mybatis-plus</module>
+        <module>xiushang-common-security</module>
+        <module>xiushang-common-swagger</module>
     </modules>
 
 </project>

@@ -4,18 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
        <groupId>com.github.shijingsh</groupId>
-        <artifactId>laokou-module</artifactId>
-        <version>3.0.3</version>
+        <artifactId>xiushang-module</artifactId>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
    <groupId>com.github.shijingsh</groupId>
-    <artifactId>laokou-elasticsearch</artifactId>
-    <version>3.0.3</version>
+    <artifactId>xiushang-module-elasticsearch</artifactId>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>laokou-elasticsearch-server</module>
-        <module>laokou-elasticsearch-client</module>
+        <module>xiushang-module-elasticsearch-server</module>
+        <module>xiushang-module-elasticsearch-client</module>
     </modules>
 
 </project>

@@ -2,17 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
        <groupId>com.github.shijingsh</groupId>
-        <artifactId>laokou-module</artifactId>
-        <version>3.0.3</version>
+        <artifactId>xiushang-module</artifactId>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
    <groupId>com.github.shijingsh</groupId>
-    <artifactId>laokou-oss</artifactId>
+    <artifactId>xiushang-module-oss</artifactId>
     <packaging>pom</packaging>
-    <version>3.0.3</version>
+    <version>1.0.0</version>
     <modules>
-        <module>laokou-oss-client</module>
-        <module>laokou-oss-server</module>
+        <module>xiushang-module-oss-client</module>
+        <module>xiushang-module-oss-server</module>
     </modules>
 
 

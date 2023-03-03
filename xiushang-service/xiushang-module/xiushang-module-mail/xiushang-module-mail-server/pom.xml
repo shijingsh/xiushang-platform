@@ -3,17 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>laokou-mail</artifactId>
+        <artifactId>xiushang-module-mail</artifactId>
        <groupId>com.github.shijingsh</groupId>
-        <version>3.0.3</version>
+        <version>1.0.0</version>
     </parent>
    <groupId>com.github.shijingsh</groupId>
-    <artifactId>laokou-mail-server</artifactId>
+    <artifactId>xiushang-module-mail-server</artifactId>
 
     <dependencies>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-mail-client</artifactId>
+            <artifactId>xiushang-module-mail-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -37,11 +37,11 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-freemarker</artifactId>
+            <artifactId>xiushang-module-freemarker</artifactId>
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-redis</artifactId>
+            <artifactId>xiushang-module-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.ulisesbocchio</groupId>

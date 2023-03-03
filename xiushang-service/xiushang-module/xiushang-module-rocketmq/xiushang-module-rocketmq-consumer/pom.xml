@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
        <groupId>com.github.shijingsh</groupId>
-        <artifactId>laokou-rocketmq</artifactId>
-        <version>3.0.3</version>
+        <artifactId>xiushang-module-rocketmq</artifactId>
+        <version>1.0.0</version>
     </parent>
    <groupId>com.github.shijingsh</groupId>
-    <artifactId>laokou-rocketmq-consumer</artifactId>
+    <artifactId>xiushang-module-rocketmq-consumer</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
@@ -20,7 +20,7 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-rocketmq-client</artifactId>
+            <artifactId>xiushang-module-rocketmq-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -32,7 +32,7 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-openfeign</artifactId>
+            <artifactId>xiushang-cloud-openfeign</artifactId>
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
@@ -52,11 +52,11 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-sentinel</artifactId>
+            <artifactId>xiushang-cloud-sentinel</artifactId>
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-common-i18n</artifactId>
+            <artifactId>xiushang-common-i18n</artifactId>
         </dependency>
     </dependencies>
 

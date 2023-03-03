@@ -1,17 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <parent>
-        <artifactId>laokou-module</artifactId>
+        <artifactId>xiushang-module</artifactId>
        <groupId>com.github.shijingsh</groupId>
-        <version>3.0.3</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
    <groupId>com.github.shijingsh</groupId>
-    <artifactId>laokou-mail</artifactId>
+    <artifactId>xiushang-module-mail</artifactId>
     <packaging>pom</packaging>
-    <version>3.0.3</version>
+    <version>1.0.0</version>
     <modules>
-        <module>laokou-mail-client</module>
-        <module>laokou-mail-server</module>
+        <module>xiushang-module-mail-client</module>
+        <module>xiushang-module-mail-server</module>
     </modules>
 </project>

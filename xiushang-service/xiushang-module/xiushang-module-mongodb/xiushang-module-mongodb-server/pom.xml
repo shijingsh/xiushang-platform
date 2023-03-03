@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>laokou-mongodb</artifactId>
+        <artifactId>xiushang-module-mongodb</artifactId>
        <groupId>com.github.shijingsh</groupId>
-        <version>3.0.3</version>
+        <version>1.0.0</version>
     </parent>
    <groupId>com.github.shijingsh</groupId>
-    <artifactId>laokou-mongodb-server</artifactId>
+    <artifactId>xiushang-module-mongodb-server</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -16,7 +16,7 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-mongodb-client</artifactId>
+            <artifactId>xiushang-module-mongodb-client</artifactId>
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-common-i18n</artifactId>
+            <artifactId>xiushang-common-i18n</artifactId>
         </dependency>
     </dependencies>
 

@@ -5,10 +5,10 @@
     <parent>
         <artifactId>laokou-im</artifactId>
        <groupId>com.github.shijingsh</groupId>
-        <version>3.0.3</version>
+        <version>1.0.0</version>
     </parent>
    <groupId>com.github.shijingsh</groupId>
-    <artifactId>laokou-im-server</artifactId>
+    <artifactId>xiushang-module-im-server</artifactId>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -26,7 +26,7 @@
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-im-client</artifactId>
+            <artifactId>xiushang-module-im-client</artifactId>
         </dependency>
         <dependency>
            <groupId>com.github.shijingsh</groupId>

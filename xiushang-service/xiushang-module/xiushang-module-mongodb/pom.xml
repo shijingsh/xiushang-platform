@@ -3,17 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>laokou-module</artifactId>
+        <artifactId>xiushang-module</artifactId>
        <groupId>com.github.shijingsh</groupId>
-        <version>3.0.3</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>laokou-mongodb</artifactId>
+    <artifactId>xiushang-module-mongodb</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>laokou-mongodb-client</module>
-        <module>laokou-mongodb-server</module>
+        <module>xiushang-module-mongodb-client</module>
+        <module>xiushang-module-mongodb-server</module>
     </modules>
 
 </project>
