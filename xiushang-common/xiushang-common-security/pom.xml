@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-auth-client</artifactId>
+            <artifactId>xiushang-auth-client</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.shijingsh</groupId>

@@ -25,7 +25,7 @@
         </dependency>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-tenant</artifactId>
+            <artifactId>xiushang-module--tenant</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -65,23 +65,23 @@
         </dependency>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-redis</artifactId>
+            <artifactId>xiushang-module-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-sentinel</artifactId>
+            <artifactId>xiushang-cloud-sentinel</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-common-mybatis-plus</artifactId>
+            <artifactId>xiushang-common-mybatis-plus</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-common-log</artifactId>
+            <artifactId>xiushang-common-log</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.shijingsh</groupId>
-            <artifactId>laokou-dynamic-router</artifactId>
+            <artifactId>xiushang-module-dynamic-router</artifactId>
         </dependency>
     </dependencies>
 
