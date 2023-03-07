@@ -1,9 +1,9 @@
 package com.xiushang.validation.utils;
+import jakarta.validation.ConstraintViolation;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
 import org.hibernate.validator.HibernateValidator;
 
-import javax.validation.ConstraintViolation;
-import javax.validation.Validation;
-import javax.validation.Validator;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -16,7 +16,7 @@ public class ValidationUtils {
     /**
      * 开启快速结束模式 failFast (true)
      */
-    //private static Validator validator = Validation.byProvider(HibernateValidator.class).configure().failFast(true).buildValidatorFactory().getValidator();
+    private static Validator validator = Validation.byProvider(HibernateValidator.class).configure().failFast(true).buildValidatorFactory().getValidator();
     /**
      * 校验对象
      *
@@ -25,7 +25,7 @@ public class ValidationUtils {
      * @return ValidResult
      */
     public static <T> ValidResult validateBean(T t,Class<?>...groups) {
-        /*ValidResult result = new ValidationUtils().new ValidResult();
+        ValidResult result = new ValidationUtils().new ValidResult();
         Set<ConstraintViolation<T>> violationSet = validator.validate(t,groups);
         boolean hasError = violationSet != null && violationSet.size() > 0;
         result.setHasErrors(hasError);
@@ -34,8 +34,7 @@ public class ValidationUtils {
                 result.addError(violation.getPropertyPath().toString(), violation.getMessage());
             }
         }
-        return result;*/
-        return null;
+        return result;
     }
     /**
      * 校验bean的某一个属性
@@ -45,7 +44,7 @@ public class ValidationUtils {
      * @return ValidResult
      */
     public static <T> ValidResult validateProperty(T obj, String propertyName) {
-        /*ValidResult result = new ValidationUtils().new ValidResult();
+        ValidResult result = new ValidationUtils().new ValidResult();
         Set<ConstraintViolation<T>> violationSet = validator.validateProperty(obj, propertyName);
         boolean hasError = violationSet != null && violationSet.size() > 0;
         result.setHasErrors(hasError);
@@ -54,8 +53,7 @@ public class ValidationUtils {
                 result.addError(propertyName, violation.getMessage());
             }
         }
-        return result;*/
-        return null;
+        return result;
     }
     /**
      * 校验结果类
