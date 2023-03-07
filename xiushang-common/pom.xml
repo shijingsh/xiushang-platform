@@ -17,7 +17,6 @@
         <module>xiushang-common-core</module>
         <module>xiushang-common-elasticsearch</module>
         <module>xiushang-common-framework</module>
-        <module>xiushang-common-mybatis</module>
         <module>xiushang-common-mapstruct</module>
         <module>xiushang-common-nacos</module>
         <module>xiushang-common-pay</module>
