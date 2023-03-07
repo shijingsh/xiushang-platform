@@ -511,32 +511,32 @@
     <dependencies>
 
         <!--引入lombok-->
-        <dependency>
+       <!-- <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
 
-        <!--Hutool Java工具包-->
+        &lt;!&ndash;Hutool Java工具包&ndash;&gt;
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>${hutool.version}</version>
         </dependency>
 
-        <!--alibaba's json-->
+        &lt;!&ndash;alibaba's json&ndash;&gt;
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
         </dependency>
-
+-->
         <!-- knife4j 接口文档  -->
-        <dependency>
+<!--        <dependency>
             <groupId>com.github.shijingsh</groupId>
             <artifactId>knife4j-spring-boot-starter</artifactId>
             <exclusions>
-                <!-- 排除版本冲突的swagger-annotations -->
+                &lt;!&ndash; 排除版本冲突的swagger-annotations &ndash;&gt;
                 <exclusion>
                     <artifactId>swagger-annotations</artifactId>
                     <groupId>io.swagger</groupId>
@@ -559,11 +559,11 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        <!-- 重新引入指定版本的swagger-annotations -->
+        &lt;!&ndash; 重新引入指定版本的swagger-annotations &ndash;&gt;
         <dependency>
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
-        </dependency>
+        </dependency>-->
 
     </dependencies>
 

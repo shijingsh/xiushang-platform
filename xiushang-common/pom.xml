@@ -30,6 +30,10 @@
         <module>xiushang-common-mybatis-plus</module>
         <module>xiushang-common-security</module>
         <module>xiushang-common-swagger</module>
+        <module>xiushang-common-api</module>
+        <module>xiushang-common-data-cache</module>
+        <module>xiushang-common-data-filter</module>
+        <module>xiushang-common-log</module>
     </modules>
 
 </project>
