@@ -1,14 +1,13 @@
 package com.xiushang.validation.config;
 
 import com.xiushang.validation.validator.AssertConstraintValidator;
+import jakarta.validation.Validation;
+import jakarta.validation.Validator;
+import jakarta.validation.ValidatorFactory;
 import org.hibernate.validator.HibernateValidator;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.validation.beanvalidation.MethodValidationPostProcessor;
-
-import javax.validation.Validation;
-import javax.validation.Validator;
-import javax.validation.ValidatorFactory;
 
 @Configuration
 public class ValidationPlusAutoConfiguration {
@@ -16,11 +15,11 @@ public class ValidationPlusAutoConfiguration {
     @Bean
     public MethodValidationPostProcessor methodValidationPostProcessor() {
         MethodValidationPostProcessor postProcessor = new MethodValidationPostProcessor();
-       // postProcessor.setValidator(validator());
+        postProcessor.setValidator(validator());
         return postProcessor;
     }
 
-    /*@Bean
+    @Bean
     public Validator validator(){
         ValidatorFactory validatorFactory = Validation.byProvider( HibernateValidator.class )
                 .configure()
@@ -28,7 +27,7 @@ public class ValidationPlusAutoConfiguration {
                 .buildValidatorFactory();
         Validator validator = validatorFactory.getValidator();
         return validator;
-    }*/
+    }
 
     @Bean
     public AssertConstraintValidator assertConstraintValidator(){

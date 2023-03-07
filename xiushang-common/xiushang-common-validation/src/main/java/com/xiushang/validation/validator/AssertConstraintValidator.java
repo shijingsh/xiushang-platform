@@ -1,5 +1,6 @@
 package com.xiushang.validation.validator;
 
+import jakarta.validation.Valid;
 import org.aopalliance.aop.Advice;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
@@ -21,7 +22,6 @@ import org.springframework.util.CollectionUtils;
 import org.springframework.util.ReflectionUtils;
 import org.springframework.util.StringUtils;
 
-import javax.validation.Valid;
 import javax.validation.constraints.Assert;
 import java.lang.reflect.Field;
 import java.lang.reflect.Parameter;

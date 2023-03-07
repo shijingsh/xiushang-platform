@@ -2,6 +2,7 @@ package com.xiushang.validation.validator;
 
 import com.xiushang.validation.config.ApplicationContextHolder;
 import com.xiushang.validation.properties.EnumProperties;
+import jakarta.validation.ValidationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.bind.BindResult;
@@ -10,7 +11,6 @@ import org.springframework.util.Assert;
 import org.springframework.util.ReflectionUtils;
 import org.springframework.util.StringUtils;
 
-import javax.validation.ValidationException;
 import javax.validation.constraints.EnumCheck;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

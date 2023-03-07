@@ -2,10 +2,10 @@ package com.xiushang.validation.validator;
 
 import com.xiushang.validation.utils.AssertUtils;
 import io.swagger.annotations.ApiModelProperty;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 import org.apache.commons.lang3.StringUtils;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
 
 public class ApiModelPropertyConstraintValidator implements ConstraintValidator<ApiModelProperty, Object> {
 

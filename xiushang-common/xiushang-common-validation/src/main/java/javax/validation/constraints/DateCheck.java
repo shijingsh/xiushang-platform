@@ -1,9 +1,9 @@
 package javax.validation.constraints;
 
 import com.xiushang.validation.validator.DateCheckConstraintValidator;
+import jakarta.validation.Constraint;
+import jakarta.validation.Payload;
 
-import javax.validation.Constraint;
-import javax.validation.Payload;
 import java.lang.annotation.Documented;
 import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
