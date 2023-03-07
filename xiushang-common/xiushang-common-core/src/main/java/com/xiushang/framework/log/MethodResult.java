@@ -1,6 +1,5 @@
 package com.xiushang.framework.log;
 
-import com.alibaba.fastjson.annotation.JSONField;
 import com.xiushang.common.intf.Response;
 import io.swagger.annotations.ApiModelProperty;
 
@@ -16,24 +15,20 @@ public class MethodResult<T> implements java.io.Serializable{
      * 响应编码 code:0为成功 其他值为失败
      */
     @ApiModelProperty(hidden = true)
-    @JSONField(serialize = false, deserialize = false)
     private int code = SUCCESS;
     /**
      * 错误提示
      */
     @ApiModelProperty(hidden = true)
-    @JSONField(serialize = false, deserialize = false)
     private String message = "";
 
     /**
      * 是否执行成功
      */
     @ApiModelProperty(hidden = true)
-    @JSONField(serialize = false, deserialize = false)
     private Boolean success = true;
 
     @ApiModelProperty(hidden = true)
-    @JSONField(serialize = false, deserialize = false)
     private T data;
 
     public MethodResult(T data) {

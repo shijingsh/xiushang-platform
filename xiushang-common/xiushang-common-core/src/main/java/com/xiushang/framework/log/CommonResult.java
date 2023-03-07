@@ -1,6 +1,7 @@
 package com.xiushang.framework.log;
 
 import com.xiushang.common.intf.Response;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
