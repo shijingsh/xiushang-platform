@@ -89,6 +89,7 @@
         <mapstruct.version>1.5.3.Final</mapstruct.version>
         <!--hbase版本-->
         <hbase.version>2.5.3</hbase.version>
+        <solr.version>8.5.1</solr.version>
     </properties>
 
     <!-- 定义全局jar版本,模块使用需要再次引入但不用写版本号 -->
@@ -559,7 +560,19 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>easyexcel</artifactId>
-                <version>3.2.1</version>
+                <version>${easyexcel.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.solr</groupId>
+                <artifactId>solr-solrj</artifactId>
+                <version>${solr.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.shijingsh</groupId>
+                <artifactId>xiushang-common-validation</artifactId>
+                <version>${xiushang.version}</version>
             </dependency>
 
         </dependencies>
