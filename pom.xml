@@ -146,8 +146,8 @@
             <id>dev</id>
             <properties>
                 <NACOS-NAMESPACE>public</NACOS-NAMESPACE>
-                <NACOS-DISCOVERY-ADDRESS>122.112.175.52:8848</NACOS-DISCOVERY-ADDRESS>
-                <NACOS-CONFIG-ADDRESS>122.112.175.52:8848</NACOS-CONFIG-ADDRESS>
+                <NACOS-DISCOVERY-ADDRESS>127.0.0.1:8848</NACOS-DISCOVERY-ADDRESS>
+                <NACOS-CONFIG-ADDRESS>127.0.0.1:8848</NACOS-CONFIG-ADDRESS>
                 <NACOS-GROUP>LAOKOU_GROUP</NACOS-GROUP>
                 <profile.active>dev</profile.active>
             </properties>
