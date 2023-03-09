@@ -16,10 +16,7 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-starter-webflux-ui</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.github.shijingsh</groupId>
-            <artifactId>xiushang-common-core</artifactId>
-        </dependency>
+
         <dependency>
             <groupId>com.github.shijingsh</groupId>
             <artifactId>xiushang-common-i18n</artifactId>
@@ -119,16 +116,7 @@
             <groupId>de.codecentric</groupId>
             <artifactId>spring-boot-admin-starter-client</artifactId>
         </dependency>
-        <dependency>
-            <groupId>cn.hutool</groupId>
-            <artifactId>hutool-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>commons-collections</groupId>
-            <artifactId>commons-collections</artifactId>
-            <version>3.2.2</version>
-            <scope>compile</scope>
-        </dependency>
+
     </dependencies>
     <build>
         <plugins>
