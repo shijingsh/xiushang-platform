@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 package org.laokou.auth.server.interfaces.controller;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -35,6 +37,7 @@ import java.util.List;
 @Tag(name = "Sys Auth API",description = "系统认证API")
 @RequiredArgsConstructor
 @RequestMapping("/oauth2")
+@Api(tags = "系统认证API", produces = "application/json")
 public class SysAuthApiController {
 
     private final SysAuthApplicationService sysAuthApplicationService;
@@ -46,6 +49,7 @@ public class SysAuthApiController {
      */
     @GetMapping("/captcha")
     @Operation(summary = "系统认证>账号密码登录>验证码",description = "系统认证>账号密码登录>验证码")
+    @ApiOperation(value = "系统认证>账号密码登录>验证码")
     @Parameter(name = AuthConstant.UUID,description = "唯一标识",example = "1111")
     public HttpResult<String> captcha(HttpServletRequest request) {
         return new HttpResult<String>().ok(sysAuthApplicationService.captcha(request));

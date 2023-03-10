@@ -83,6 +83,12 @@
             <groupId>com.github.shijingsh</groupId>
             <artifactId>xiushang-module-dynamic-router</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.github.shijingsh</groupId>
+            <artifactId>xiushang-common-knife4j</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
