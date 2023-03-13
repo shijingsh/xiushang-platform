@@ -16,9 +16,6 @@
     <modules>
         <module>xiushang-common-core</module>
         <module>xiushang-common-elasticsearch</module>
-<!--
-        <module>xiushang-common-framework</module>
--->
         <module>xiushang-common-mapstruct</module>
         <module>xiushang-common-nacos</module>
         <module>xiushang-common-pay</module>
@@ -31,7 +28,6 @@
         <module>xiushang-common-mybatis-plus</module>
         <module>xiushang-common-security</module>
         <module>xiushang-common-swagger</module>
-        <module>xiushang-common-knife4j</module>
         <module>xiushang-common-api</module>
         <module>xiushang-common-data-cache</module>
         <module>xiushang-common-data-filter</module>

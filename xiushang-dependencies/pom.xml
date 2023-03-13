@@ -90,8 +90,6 @@
         <!--hbase版本-->
         <hbase.version>2.5.3</hbase.version>
         <solr.version>8.5.1</solr.version>
-
-        <knife4j.version>3.0.3</knife4j.version>
     </properties>
 
     <!-- 定义全局jar版本,模块使用需要再次引入但不用写版本号 -->
@@ -151,11 +149,6 @@
             <dependency>
                <groupId>com.github.shijingsh</groupId>
                 <artifactId>xiushang-common-api</artifactId>
-                <version>${xiushang.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.shijingsh</groupId>
-                <artifactId>xiushang-common-knife4j</artifactId>
                 <version>${xiushang.version}</version>
             </dependency>
             <dependency>
@@ -588,17 +581,6 @@
                 <groupId>org.mapstruct</groupId>
                 <artifactId>mapstruct</artifactId>
                 <version>${mapstruct.version}</version>
-            </dependency>
-            <!-- knife4j-->
-            <dependency>
-                <groupId>com.github.xiaoymin</groupId>
-                <artifactId>knife4j-spring-boot-starter</artifactId>
-                <version>${knife4j.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.xiaoymin</groupId>
-                <artifactId>knife4j-micro-spring-boot-starter</artifactId>
-                <version>${knife4j.version}</version>
             </dependency>
 
         </dependencies>
